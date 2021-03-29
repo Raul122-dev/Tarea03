@@ -11,3 +11,207 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  width: 100%;
+}
+
+body::-webkit-scrollbar{
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #0278ae;
+}
+
+.img_facebook{
+  margin-left: 10px;
+}
+
+.opciones{
+  margin-right: 10px;
+}
+
+.input-bus{
+  background: transparent;
+  border: none;
+  width: 80%;  
+}
+
+.input-bus::placeholder{
+  color: white;
+  opacity: 1;
+  font-size: 1rem;
+}
+
+.container-fluid{
+  padding: 15px;
+  width: 80%;
+  height: 40%;
+}
+
+.cartita_estados{
+  margin: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow:  7px 7px 14px #e0e0e0,
+              -7px -7px 14px #ffffff;
+}
+
+.container-fluid-card{
+  width: 100%;
+}
+
+.card-body{
+  display: flex;
+  align-items: center;
+}
+
+.card-text{
+  margin-left: 5px;
+}
+
+.img_icon_card{
+  width: 30px;
+}
+
+.container-fluid-card .card{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 15px;
+}
+
+.img_card_info{
+  width: 40px;
+  height: auto;
+}
+
+.in-publicacion{
+  width: 100%;
+  border: none;
+}
+
+.icon_publicacion{
+  width: 30px;
+}
+
+.col-3{
+  display: flex;
+  align-items: center;
+}
+
+.text_acciones{
+  display: inline-table;
+}
+
+.text_acciones p{
+  display: table-cell; 
+  vertical-align: middle;
+}
+
+.public-img{
+  padding-bottom: 10px;
+}
+
+.img_public{
+  width: 100%;
+  height: auto;
+}
+
+.row_cards{
+  width: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 10px;
+  background: white;
+  white-space: nowrap;
+}
+
+.row_cards .card{
+  display: inline-block;
+}
+
+/*Scroll Personalizado*/
+.row_cards::-webkit-scrollbar{
+  height: 5px;
+}
+
+.row_cards::-webkit-scrollbar-thumb{
+  background: #0278ae;
+  border-radius: 5px;
+  
+}
+
+.imagen-estado{
+  width: 100%;
+  height: 100%;
+}
+
+.card_estado{
+  width: 11rem;
+  height: 11rem;
+}
+
+@media (max-width: 500px) {
+  .card{
+      margin: 10px;
+      width: 9rem;
+  }
+  .card-text{
+      font-size: 11px;
+  }
+  .img_icon_card{
+      width: 15px;
+  }
+
+  .row_cards::-webkit-scrollbar {
+      display: none;
+  }
+  .img_card_info{
+      width: 25px;
+  }
+  .icon_publicacion{
+      width: 20px;
+  }
+
+  .col-10{
+    font-size: 13px;
+  }
+
+
+
+}
+
+@media (max-width: 720px) {
+  .card{
+    margin: 10px;
+  }
+  .card-text{
+      font-size: 13px;
+  }
+  .img_icon_card{
+      width: 19px;
+  }
+
+  .card_estado{
+    width: 7rem;
+    height: 7rem;
+  }
+
+}
+
+@media (max-width: 980px) {
+  .container-fluid-card .card{
+    width: 75%;
+  }
+
+  .card_estado{
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+
+
+
